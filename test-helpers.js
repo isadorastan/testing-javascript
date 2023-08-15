@@ -18,5 +18,7 @@ async function test(title, callback) {
     }
 }
 
-global.test = test;
-global.expect = expect;
+// global.test = test;
+// global.expect = expect;
+
+module.exports = {test, expect}
